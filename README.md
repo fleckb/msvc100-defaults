@@ -1,9 +1,11 @@
-# msvc100-defaults #
+# Visual Studio 2010 Project/Solution Templates #
 
-Some reasonable default project directory-layout for Visual Studio 2010
+Some reasonable directory-layout defaults for Visual Studio 2010 projects.
 
 
-## Directory Layout ##
+## Directory Layouts ##
+
+### Single Project Solution ###
 
 <pre>
 /project-root
@@ -19,3 +21,6 @@ Some reasonable default project directory-layout for Visual Studio 2010
         /lib            External libraries
     /obj                Intermediate build artifacts
 </pre>
+
+
+### Multi Project Solution ###
