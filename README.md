@@ -2,6 +2,12 @@
 
 Some reasonable directory-layout defaults for Visual Studio 2010 projects.
 
+The main project should be structured as follows:
+
+ - Library project for main functionality
+ - Test project to test main functionality
+ - Application project to execute main functionality (contains int main...)
+
 
 ## Directory Layouts ##
 
@@ -23,4 +29,8 @@ Some reasonable directory-layout defaults for Visual Studio 2010 projects.
 </pre>
 
 
-### Multi Project Solution ###
+### Issues ###
+
+ - What about "internal" library (where to put headers and libs)?
+ - Where to but test output (executable, test-report)?
+ - What about resources
