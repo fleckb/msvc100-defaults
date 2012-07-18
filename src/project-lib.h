@@ -7,4 +7,4 @@ public:
 	int someMethod(int param);
 };
 
-#endif PROJECT_LIB_H
+#endif
