@@ -1,13 +1,8 @@
 #include <iostream>
-
-#include "project-lib.h"
+#include "project_lib.h"
 
 int main(int argc, char** argv) {
 	ProjectLib project;
-
-	int returnVal = project.someMethod(10);
-
-	std::cout << returnVal << std::endl;
-
+	std::cout << project.someMethod(10) << std::endl;
 	return 0;
 }
