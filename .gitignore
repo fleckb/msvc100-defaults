@@ -10,3 +10,8 @@
 *.lai
 *.la
 *.a
+
+# Visual Studio Project Files
+*.sdf
+*.suo
+*.vcxproj.user
